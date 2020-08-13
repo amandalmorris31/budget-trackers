@@ -8,11 +8,19 @@ Applying Progressive Web Application, add functionality to budget tracker applic
  
 2. Created service-worker.js file that enables data to be cached.  The cached files are listed in the const FILES_TO_CACHE array
 
-In Developer tools, need to check Application tab to ensure the Manifest and Service Workers are enabled.
+In Developer tools, need to check Application tab to ensure the Manifest and Service Workers (will appear under Application heading) and IndexedDB (will appear under Storage heading) are enabled.
 
-3. In the IndexedDb file, 
+3. In the IndexedDb.js file, link to 
+
+In the index.html file, link to both the index.js and indexedDb.js file that was added.
+
+In index.js file, link to 
 
 Need to add data online and then test offline.
+
+The offline data will be stored in a table named pending.  
+
+
 
 # User Installation
 First step is to install npm.
