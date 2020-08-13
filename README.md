@@ -18,8 +18,8 @@ In index.js file, link to
 
 Need to add data online and then test offline.
 
-The offline data will be stored in a table named pending.  
-
+The offline data will be stored in a table named pending, as can be seen here:
+![budgettrackerpendingoffline](https://user-images.githubusercontent.com/57371259/90090743-0bfbea80-dce2-11ea-9baf-1b65727180c1.jpg)  
 
 
 # User Installation
